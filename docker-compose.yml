@@ -1,0 +1,7 @@
+services:
+  cv-web:
+    build: .
+    container_name: cv-alvaro
+    ports:
+      - "8080:80"
+    restart: unless-stopped
